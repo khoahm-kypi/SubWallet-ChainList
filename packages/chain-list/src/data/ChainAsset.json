@@ -9929,5 +9929,19 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/bifrost_dot-local-vastr.png"
+  },
+  "aura-network" : {
+    "originChain": "aura-network",
+    "slug": "aura_network",
+    "name": "Aura Network",
+    "symbol": "AURA",
+    "decimals": 18,
+    "priceId": "aura-network",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": null,
+    "multiChainAsset": "AURA-AuraNetwork",
+    "hasValue": true,
+    "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/aura_network.png"
   }
 }

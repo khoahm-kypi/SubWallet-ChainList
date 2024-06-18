@@ -247,5 +247,6 @@
   "bounceBitEvmTest": "https://chain-list-assets.subwallet.app/assets/chains/bouncebitevmtest.png",
   "kreivo": "https://chain-list-assets.subwallet.app/assets/chains/kreivo.png",
   "custom-Substrate-gosnetwork": "https://chain-list-assets.subwallet.app/assets/custom-chains/gos_37cd7c233c.png",
-  "custom-Substrate-gosspectral": "https://chain-list-assets.subwallet.app/assets/custom-chains/gos_37cd7c233c.png"
+  "custom-Substrate-gosspectral": "https://chain-list-assets.subwallet.app/assets/custom-chains/gos_37cd7c233c.png",
+  "aura-network" : "https://chain-list-assets.subwallet.app/assets/chains/aura_network.png"
 }

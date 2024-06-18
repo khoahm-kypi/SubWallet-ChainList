@@ -8642,5 +8642,80 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null
-  }
+  },
+  "auraEvmSerenity":{
+   "slug": "aura-serenity",
+   "name": "Aura EVM Serenity",
+   "providers":{
+      "rpc": "https://jsonrpc.serenity.aura.network"
+   },
+   "isTestnet": true,
+   "chainStatus": "ACTIVE",
+   "icon": "https://chain-list-assets.subwallet.app/assets/chains/aura_network.png",
+   "evmInfo":{
+      "evmChainId": 1236,
+      "blockExplorer": "https://serenity.aurascan.io",
+      "existentialDeposit": "0",
+      "symbol": "AURA",
+      "decimals": 18,
+      "supportSmartContract": [
+         "ERC20",
+         "ERC721"
+      ],
+      "abiExplorer": "https://serenity.aurascan.io"
+   },
+   "substrateInfo": null,
+   "extraInfo": null,
+   "bitcoinInfo": null
+},
+"auraEvmEphoria":{
+   "slug": "aura-ephoria",
+   "name": "Aura EVM Ephoria",
+   "providers":{
+      "rpc": "https://jsonrpc.euphoria.aura.network"
+   },
+   "isTestnet": true,
+   "chainStatus": "ACTIVE",
+   "icon": "https://chain-list-assets.subwallet.app/assets/chains/aura_network.png",
+   "evmInfo":{
+      "evmChainId": 6321,
+      "blockExplorer": "https://euphoria.aurascan.io",
+      "existentialDeposit": "0",
+      "symbol": "AURA",
+      "decimals": 18,
+      "supportSmartContract":[
+         "ERC20",
+         "ERC721"
+      ],
+      "abiExplorer": "https://euphoria.aurascan.io"
+   },
+   "substrateInfo": null,
+   "extraInfo": null,
+   "bitcoinInfo": null
+},
+"auraEvmMainnet": {
+   "slug": "aura-network",
+   "name": "Aura EVM",
+   "providers": {
+      "rpc": "https://jsonrpc.aura.network"
+   },
+   "isTestnet": false,
+   "chainStatus": "ACTIVE",
+   "icon": "https://chain-list-assets.subwallet.app/assets/chains/aura_network.png",
+   "evmInfo": {
+      "evmChainId": 6322,
+      "blockExplorer": "https://aurascan.io",
+      "existentialDeposit": "0",
+      "symbol": "AURA",
+      "decimals": 18,
+      "supportSmartContract": [
+         "ERC20",
+         "ERC721"
+      ],
+      "abiExplorer": "https://aurascan.io"
+   },
+   "substrateInfo": null,
+   "extraInfo": null,
+   "bitcoinInfo": null
+}
 }
