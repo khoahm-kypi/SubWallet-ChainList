@@ -5813,7 +5813,7 @@
     "symbol": "SHIB",
     "decimals": 18,
     "priceId": "shiba-inu",
-    "minAmount": null,
+    "minAmount": "0",
     "assetType": "ERC20",
     "metadata": {
       "contractAddress": "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE"
@@ -9849,6 +9849,74 @@
     "multiChainAsset": null,
     "hasValue": false,
     "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/bouncebitevmtest-native-bb.png"
+  },
+  "statemint-LOCAL-KSM": {
+    "originChain": "statemint",
+    "slug": "statemint-LOCAL-KSM",
+    "name": "Kusama",
+    "symbol": "KSM",
+    "decimals": 12,
+    "priceId": "kusama",
+    "minAmount": "1000000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "isBridged": true,
+      "onChainInfo": {
+        "parents": 2,
+        "interior": {
+          "X1": {
+            "GlobalConsensus": "Kusama"
+          }
+        }
+      },
+      "multilocation": {
+        "parents": 2,
+        "interior": {
+          "X1": [
+            {
+              "GlobalConsensus": "Kusama"
+            }
+          ]
+        }
+      }
+    },
+    "multiChainAsset": "KSM-Kusama",
+    "hasValue": true,
+    "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/statemint-local-ksm.png"
+  },
+  "statemine-LOCAL-DOT": {
+    "originChain": "statemine",
+    "slug": "statemine-LOCAL-DOT",
+    "name": "Polkadot",
+    "symbol": "DOT",
+    "decimals": 10,
+    "priceId": "polkadot",
+    "minAmount": "10000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "isBridged": true,
+      "onChainInfo": {
+        "parents": 2,
+        "interior": {
+          "X1": {
+            "GlobalConsensus": "Polkadot"
+          }
+        }
+      },
+      "multilocation": {
+        "parents": 2,
+        "interior": {
+          "X1": [
+            {
+              "GlobalConsensus": "Polkadot"
+            }
+          ]
+        }
+      }
+    },
+    "multiChainAsset": "DOT-Polkadot",
+    "hasValue": true,
+    "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/statemine-local-dot.png"
   },
   "aleph-PSP22-INW2-5EA7h2xCP9TkAwEQ8Km2b7aQChPKVCqcS2BJWqYavoXiEsfx": {
     "originChain": "aleph",

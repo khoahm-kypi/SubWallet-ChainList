@@ -7988,6 +7988,7 @@
     "chainStatus": "ACTIVE",
     "icon": "https://chain-list-assets.subwallet.app/assets/chains/acurast.png",
     "providers": {
+      "Acurast": "wss://acurast-canarynet-ws.prod.gke.papers.tech",
       "Subwallet": "wss://subwallet-rpc.canary.acurast.com"
     },
     "evmInfo": null,
@@ -8473,7 +8474,7 @@
     "chainStatus": "ACTIVE",
     "icon": "https://chain-list-assets.subwallet.app/assets/chains/bitcoin.png",
     "providers": {
-      "Blockstream": "https://apix.openbit.app"
+      "Blockstream": "https://api.openbit.app"
     },
     "evmInfo": null,
     "substrateInfo": null,

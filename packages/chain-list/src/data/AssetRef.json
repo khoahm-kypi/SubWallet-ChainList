@@ -153,6 +153,13 @@
     "destChain": "polkadot",
     "path": "XCM"
   },
+  "statemint-NATIVE-DOT___statemine-LOCAL-DOT": {
+    "srcAsset": "statemint-NATIVE-DOT",
+    "destAsset": "statemine-LOCAL-DOT",
+    "srcChain": "statemint",
+    "destChain": "statemine",
+    "path": "XCM"
+  },
   "acala-NATIVE-ACA___moonbeam-LOCAL-xcACA": {
     "srcAsset": "acala-NATIVE-ACA",
     "destAsset": "moonbeam-LOCAL-xcACA",
@@ -452,6 +459,13 @@
     "destAsset": "kusama-NATIVE-KSM",
     "srcChain": "statemine",
     "destChain": "kusama",
+    "path": "XCM"
+  },
+  "statemine-NATIVE-KSM___statemint-LOCAL-KSM": {
+    "srcAsset": "statemine-NATIVE-KSM",
+    "destAsset": "statemint-LOCAL-KSM",
+    "srcChain": "statemine",
+    "destChain": "statemint",
     "path": "XCM"
   },
   "pendulum-LOCAL-DOT___polkadot-NATIVE-DOT": {
@@ -1482,6 +1496,20 @@
     "srcAsset": "pendulum-LOCAL-USDC",
     "destAsset": "statemint-LOCAL-USDC",
     "srcChain": "pendulum",
+    "destChain": "statemint",
+    "path": "XCM"
+  },
+  "statemint-LOCAL-KSM___statemine-NATIVE-KSM": {
+    "srcAsset": "statemint-LOCAL-KSM",
+    "destAsset": "statemine-NATIVE-KSM",
+    "srcChain": "statemint",
+    "destChain": "statemine",
+    "path": "XCM"
+  },
+  "statemine-LOCAL-DOT___statemint-NATIVE-DOT": {
+    "srcAsset": "statemine-LOCAL-DOT",
+    "destAsset": "statemint-NATIVE-DOT",
+    "srcChain": "statemine",
     "destChain": "statemint",
     "path": "XCM"
   }
